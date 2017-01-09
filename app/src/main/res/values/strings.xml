@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">jigsaw puzzle</string>
+
+    <!--MainActivity NavigationView menu-->
+    <string name="menu_history_record">Record</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_share">Share</string>
+    <string name="content_share1">Hi! I\'m playing jigsaw puzzle and all my best performances are:</string>
+    <string name="content_share2">I hope you can break them!Try it now!</string>
+
+    <!--Navigation drawer-->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!--MainActivity Option menu-->
+    <string name="option_menu_camera">Camera</string>
+
+    <!--GameType-->
+    <string name="game_type">Type</string>
+    <string name="game_type_default">Type default</string>
+    <string name="game_type_3">Type: 3x3</string>
+    <string name="game_type_4">Type: 4x4</string>
+    <string name="game_type_5">Type: 5x5</string>
+    <string name="game_type_6">Type: 6x6</string>
+    <string name="game_type_7">Type: 7x7</string>
+    <string name="game_type_change">Game type has been changed!</string>
+    <string name="game_type_change_warning">Changing the type of game is not allowed in the game!</string>
+
+    <!--Toast messages-->
+    <string name="could_not_take_photo">No SDCard is inserted, can not take photo!</string>
+    <string name="could_not_delete_default_game">Sorry! Can not delete default game!</string>
+    <string name="exceed_max_game_amount">Sorry! Can not create a new game.Game amount out of limit!</string>
+
+    <!--Delete game dialog-->
+    <string name="delete_game_dialog_message">Sure to delete this game?</string>
+    <string name="delete_game_dialog_delete">Delete</string>
+    <string name="delete_game_dialog_cancel">Cancel</string>
+    <string name="delete_game_dialog_deleted">Deleted!</string>
+    <string name="delete_game_dialog_canceled">Canceled!</string>
+    <string name="delete_game_dialog_ok">OK</string>
+
+    <!--GameActivity option menu-->
+    <string name="game_reset">Reset</string>
+    <string name="game_type_switch">Change type</string>
+
+    <!--Game hint-->
+    <string name="game_hint">Click me to start</string>
+
+    <!--Game mode-->
+    <string name="game_default">Default</string>
+    <string name="game_custom">Custom</string>
+
+    <!--Game time-->
+    <string name="game_time_text">Time: 00:00:00</string>
+    <string name="game_time">Time:</string>
+
+    <!--Win Dialog text-->
+    <string name="dialog_button_try_again">Try it again!</string>
+    <string name="dialog_button_back">Back</string>
+    <string name="dialog_title_win">Good! You win!</string>
+    <string name="dialog_title_new_record">Great！you created a new record!</string>
+    <string name="dialog_title_draw">Congratulations！you drew the record!</string>
+    <string name="dialog_title_first">Perfect！you broke the record!</string>
+    <string name="dialog_title_second">Beautiful！you got the second place!</string>
+    <string name="dialog_title_third">Beautiful！you got the third place!</string>
+
+    <!--Button original text-->
+    <string name="view_original">View image</string>
+    <string name="back">Back</string>
+    <string name="start">Start</string>
+    <string name="restart">Restart</string>
+
+    <!--Restart Dialog text-->
+    <string name="button_yes">Yes</string>
+    <string name="button_no">Cancel</string>
+    <string name="restart_game">Sure to restart this game?</string>
+
+    <!--Win Dialog-->
+    <string name="this_record">This record:</string>
+    <string name="history_best_record">Best record:</string>
+    <string name="no_history_record" translatable="false">00:00:00</string>
+
+    <!--TimeOut Dialog-->
+    <string name="time_out">Time out! This game will be canceled automatically!</string>
+
+    <!--Give up dialog-->
+    <string name="give_up_game">Sure to give up this game?</string>
+
+    <!--Game photo lost dialog-->
+    <string name="game_photo_lost" translatable="false">Oops…</string>
+
+    <!--History record-->
+    <string name="history_record">Historical records</string>
+    <string name="reset_all_record">Reset all</string>
+
+    <!--About Activity-->
+    <string name="game_version">Version 1.0</string>
+    <string name="author">author:</string>
+    <string name="author_name">Galli Liu</string>
+    <string name="information">If you have any questions please send a message to me,my Email address is</string>
+    <string name="email">glgalliliu@gmail.com</string>
+    <string name="title_activity_help">Help</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Example General settings -->
+    <string name="pref_header_general" translatable="false">General</string>
+    <string name="pref_header_help" translatable="false">Help</string>
+    <string name="help_game">Game</string>
+    <string name="help_introduction">Introduce</string>
+    <string name="help_game_click">Click the image</string>
+    <string name="help_game_click_text">Click the picture to enter the game</string>
+    <string name="help_game_long_click">Long press picture</string>
+    <string name="help_game_long_click_text">Long press picture by browse record or delete game</string>
+    <string name="help_menu">Menu</string>
+    <string name="help_buttons">Buttons</string>
+    <string name="help_intro_text">
+        This game by moving the box to change the location of each square, did not end until the show the complete pattern of the game.
+        Each pattern has 5 types, which can be changed before the start, but not in the middle.
+        During the game can provide reference for you to see the image. The shorter the time, the higher the ranking will be obtained.
+    </string>
+    <string name="help_switch_type">Change type</string>
+    <string name="help_type_text">Change the current game type</string>
+    <string name="help_new_game">New game</string>
+    <string name="help_new_game_text">Create a new game through pictures or select a photo form a photo album</string>
+    <string name="help_view_original_text">Click to view original image</string>
+    <string name="help_back_text">Click to back to the current game</string>
+    <string name="help_start_text">Click to start</string>
+    <string name="game_photo_lost_text">The image has been lost. Unable to start the game!</string>
+</resources>

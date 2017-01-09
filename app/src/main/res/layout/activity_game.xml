@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_pane_background"
+    tools:context="net.galliliu.jigsawpuzzle.ui.activity.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/game_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/game_activity_padding"
+        android:paddingBottom="@dimen/game_activity_padding"
+        android:paddingLeft="@dimen/game_activity_padding"
+        android:paddingRight="@dimen/game_activity_padding"
+        android:layout_alignParentTop="true"
+        android:baselineAligned="false"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/game_type_3"
+            android:id="@+id/textViewType"
+            android:gravity="start"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/game_time_text"
+            android:gravity="end"
+            android:id="@+id/textViewTime"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/game_pane_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/game_start"
+        android:background="@drawable/game_pane_border">
+
+        <GridView
+            android:id="@+id/game_item_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:verticalSpacing="0dp"
+            android:horizontalSpacing="0dp"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/photo_selected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/game_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/game_activity_padding"
+        android:paddingLeft="@dimen/game_activity_padding"
+        android:paddingRight="@dimen/game_activity_padding"
+        android:paddingTop="@dimen/game_activity_padding"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/game_pane_layout"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/view_original"
+            android:id="@+id/button_original"
+            android:textColor="@android:color/white"
+            android:shadowColor="@color/black"
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/text_size"
+            android:background="@drawable/button_background"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/game_activity_margin"
+            android:layout_marginStart="@dimen/game_activity_margin"
+            android:text="@string/start"
+            android:id="@+id/button_start"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold|italic"
+            android:background="@drawable/button_background"/>
+        <!--<ImageButton-->
+            <!--android:id="@+id/button_original"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:src="@drawable/ic_view_black_48dp"-->
+            <!--android:background="@drawable/button_background"/>-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginStart="10dp"-->
+            <!--android:text="@string/start"-->
+            <!--android:id="@+id/button_start"-->
+            <!--android:src="@drawable/ic_play_circle_outline_black_48dp"-->
+            <!--android:background="@drawable/button_background"/>-->
+    </LinearLayout>
+</RelativeLayout>

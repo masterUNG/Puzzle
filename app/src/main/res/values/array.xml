@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="new_game">
+        <item>Select from Album</item>
+        <item>Take a Photo</item>
+    </string-array>
+    <string-array name="game_item_long_click">
+        <item>Delete this game</item>
+        <item>Show this game\'s rank</item>
+    </string-array>
+</resources>

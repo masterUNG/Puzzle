@@ -1,0 +1,10 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="net.galliliu.jigsawpuzzle.ui.activity.HelpActivity$HelpPreferenceFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/pref_header_help" />
+
+</preference-headers>

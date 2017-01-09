@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="new_game">
+        <item>相册中选择</item>
+        <item>拍一张照片</item>
+    </string-array>
+    <string-array name="game_item_long_click">
+        <item>删除该游戏</item>
+        <item>查看排行榜</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="game_activity_padding">10dp</dimen>
+    <dimen name="game_activity_margin">10dp</dimen>
+
+    <dimen name="game_pane_border_size">10dp</dimen>
+    <dimen name="game_list_item_column_width">100dp</dimen>
+    <dimen name="game_list_item_column_height">100dp</dimen>
+    <dimen name="game_list_item_column_space">4dp</dimen>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="button_text_size">25sp</dimen>
+    <dimen name="button_radius">10dp</dimen>
+    <!--<dimen name="game_pane_margin_border_size">2dp</dimen>-->
+    <!--<dimen name="game_pane_medium_border_size">7dp</dimen>-->
+    <!--<dimen name="game_pane_padding_border_size">1dp</dimen>-->
+    <!--<dimen name="game_pane_margin_border_negative">-2dp</dimen>-->
+    <!--<dimen name="game_pane_medium_border_negative">-7dp</dimen>-->
+    <!--<dimen name="game_pane_padding_border_negative">-1dp</dimen>-->
+    <!--<dimen name="game_pane_border_gap">9dp</dimen>-->
+</resources>

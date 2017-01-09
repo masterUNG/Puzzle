@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#FF8000</color>
+    <color name="colorPrimaryDark">#EF7000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray_background">#AA9c9797</color>
+    <color name="white_border">#FFAAAAAA</color>
+    <color name="black_border">#FF000000</color>
+    <color name="white">#ffffff</color>
+    <color name="photo_solid_color">#FF0000</color>
+    <color name="photo_solid_stroke">#00FF00</color>
+    <color name="game_hint_text_color">#DD5444</color>
+    <!--<color name="game_info_text_color">#DD5444</color>-->
+    <color name="game_pane_background">#DD5444</color>
+    <color name="game_hint_background_color">#88000000</color>
+    <color name="game_grid_item_focus_color">#AA000000</color>
+    <color name="border_color">#FFFF8000</color>
+    <color name="button_default_color">#FFFF8000</color>
+    <color name="button_pressed_color">#FFEF7000</color>
+    <color name="button_border_color">#88000000</color>
+    <color name="orange_color">#FFFF8000</color>
+    <color name="button_bg_color">#222e3b</color>
+    <color name="red">#FF0000</color>
+    <color name="black">#000000</color>
+</resources>

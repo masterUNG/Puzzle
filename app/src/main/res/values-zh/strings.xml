@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拼图游戏</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_help">帮助</string>
+    <string name="menu_history_record">历史记录</string>
+    <string name="menu_setting">游戏设置</string>
+    <string name="option_menu_camera">拍照</string>
+    <string name="game_type_3">类型: 3x3</string>
+    <string name="game_type_4">类型: 4x4</string>
+    <string name="game_type_5">类型: 5x5</string>
+    <string name="game_type_6">类型: 6x6</string>
+    <string name="game_type_7">类型: 7x7</string>
+    <string name="game_type_default">默认级别</string>
+    <string name="could_not_take_photo">抱歉!没有插入SDCard,不能拍照!</string>
+    <string name="delete_game_dialog_cancel">取消</string>
+    <string name="delete_game_dialog_delete">删除</string>
+    <string name="delete_game_dialog_message">确定要删除此游戏?</string>
+    <string name="could_not_delete_default_game">抱歉!默认的游戏不允许删除.</string>
+    <!--<string name="option_menu_reset">重置</string>-->
+    <string name="game_type">类型</string>
+    <string name="game_hint">点击我开始</string>
+    <string name="game_custom">自定义</string>
+    <string name="game_default">默认游戏</string>
+    <string name="game_type_switch">切换类型</string>
+    <string name="game_reset">重置</string>
+    <string name="game_time">时间:</string>
+    <string name="game_time_text">时间: 00:00:00</string>
+    <string name="dialog_button_back">返回</string>
+    <string name="dialog_button_try_again">再来一局!</string>
+    <string name="dialog_title_first">恭喜您打破了记录!</string>
+    <string name="dialog_title_second">恭喜您获得第二名!</string>
+    <string name="dialog_title_third">恭喜您获得第三名!</string>
+    <string name="view_original">查看原图</string>
+    <string name="back">返回</string>
+    <string name="game_type_change">游戏类型已更换!</string>
+    <string name="game_type_change_warning">正在游戏中不允许更改游戏类型!</string>
+    <string name="button_no">取消</string>
+    <string name="button_yes">确定</string>
+    <string name="restart_game">你确定重新开始游戏?</string>
+    <string name="restart">重新开始</string>
+    <string name="start">开始</string>
+    <string name="dialog_title_draw">恭喜您平了记录!</string>
+    <string name="this_record">本次战绩:</string>
+    <string name="history_best_record">历史最佳:</string>
+    <string name="dialog_title_win">恭喜你获胜!</string>
+    <string name="dialog_title_new_record">恭喜您创建了新纪录!</string>
+    <string name="time_out">超时!本次游戏将自动取消!</string>
+    <string name="give_up_game">确定放弃本次游戏?</string>
+    <string name="history_record">历史记录</string>
+    <string name="reset_all_record">全部重置</string>
+    <string name="menu_share">分享</string>
+    <string name="delete_game_dialog_deleted">已删除!</string>
+    <string name="delete_game_dialog_ok">好的</string>
+    <string name="delete_game_dialog_canceled">已取消删除!</string>
+    <string name="game_version">游戏版本 1.0</string>
+    <string name="author_name">Galli Liu</string>
+    <string name="author">作者:</string>
+    <string name="information">有问题?欢迎发送邮件到邮箱</string>
+    <string name="email">glgalliliu@gmail.com</string>
+    <string name="help_buttons">按钮</string>
+    <string name="help_introduction">介绍</string>
+    <string name="help_menu">菜单</string>
+    <string name="help_intro_text">
+        本游戏通过移动方格来改变每个方格位置,直到展示出完整的图案游戏才结束。
+        每个图案都有5个类型,开始前可更换类型,但中途不允许更改。
+        游戏期间可查看原图给您提供参考,在越短的时间内完成将获得越高的排位。
+    </string>
+    <string name="help_type_text">更改当前游戏类型</string>
+    <string name="help_view_original_text">点击查看原始图片</string>
+    <string name="help_back_text">点击回到当前游戏</string>
+    <string name="help_start_text">点击开始游戏</string>
+    <string name="help_switch_type">类型更改</string>
+    <string name="help_new_game_text">通过拍照或者从相册选取照片来新建游戏</string>
+    <string name="help_new_game">新建游戏</string>
+    <string name="help_game">游戏</string>
+    <string name="title_activity_help">帮助</string>
+    <string name="exceed_max_game_amount">抱歉!游戏数量已达上限,未能新建游戏!</string>
+    <string name="game_photo_lost_text">图片丢失,无法开始游戏!</string>
+    <string name="help_game_click">点击图片</string>
+    <string name="help_game_click_text">点击图片进入游戏页面</string>
+    <string name="help_game_long_click">长按图片</string>
+    <string name="help_game_long_click_text">长按图片浏览记录或删除游戏</string>
+    <string name="content_share1">哈喽!我正在玩拼图游戏,我所有的最佳纪录是:</string>
+    <string name="content_share2">跪求一破!快来试试吧!</string>
+</resources>

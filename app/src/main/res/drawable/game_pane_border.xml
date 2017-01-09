@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item>-->
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+            <!--<solid android:color="@android:color/transparent"/>-->
+            <!--<padding-->
+                <!--android:right="@dimen/game_pane_border_size"-->
+                <!--android:left="@dimen/game_pane_border_size"-->
+                <!--android:bottom="@dimen/game_pane_border_size"-->
+                <!--android:top="@dimen/game_pane_border_size" />-->
+            <!--<stroke-->
+                <!--android:color="@color/border_color"-->
+                <!--android:width="@dimen/game_pane_border_size" />-->
+        <!--</shape>-->
+    <!--</item>-->
+<!--</selector>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:right="-2dp"
+        android:bottom="-2dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/white_border"
+                android:width="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="-7dp"
+        android:bottom="-7dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/border_color"
+                android:width="7dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="9dp"
+        android:top="9dp"
+        android:right="-1dp"
+        android:bottom="-1dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/black_border"
+                android:width="1dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="-2dp"
+        android:top="-2dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/black_border"
+                android:width="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="-7dp"
+        android:top="-7dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/border_color"
+                android:width="7dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="-1dp"
+        android:top="-1dp"
+        android:right="9dp"
+        android:bottom="9dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/white_border"
+                android:width="1dp"/>
+        </shape>
+    </item>
+    <item
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/white_border"
+                android:width="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:color="@color/border_color"
+                android:width="7dp"/>
+        </shape>
+    </item>
+    <item
+        android:top="@dimen/game_pane_border_size"
+        android:right="@dimen/game_pane_border_size"
+        android:left="@dimen/game_pane_border_size"
+        android:bottom="@dimen/game_pane_border_size">
+        <shape>
+            <padding
+                android:top="@dimen/game_pane_border_size"
+                android:bottom="@dimen/game_pane_border_size"
+                android:left="@dimen/game_pane_border_size"
+                android:right="@dimen/game_pane_border_size" />
+        </shape>
+    </item>
+</layer-list>

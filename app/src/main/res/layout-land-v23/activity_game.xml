@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.galliliu.jigsawpuzzle.ui.activity.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/control_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:layout_alignParentTop="false"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:background="#FF0000"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="耗时"
+            android:id="@+id/t"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="00 : 00 : 00"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_type"
+            android:layout_gravity="center_horizontal"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_gravity="center_vertical"
+            android:numStars="4"
+            style="@android:style/Widget.Material.RatingBar.Indicator" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/toggleButton"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="#00FF00"
+        android:layout_toRightOf="@+id/control_panel"
+        android:layout_toEndOf="@+id/control_panel">
+
+        <GridView
+            android:id="@+id/game_item_grid_view"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="#FFFF00"
+            android:numColumns="auto_fit"
+            android:scrollIndicators="none" />
+
+        <ImageView
+            android:id="@+id/photo_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+</RelativeLayout>

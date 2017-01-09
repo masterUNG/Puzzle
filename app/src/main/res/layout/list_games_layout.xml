@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.galliliu.jigsawpuzzle.ui.view.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/game_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/game_item_border"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/game_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/game_hint_background_color"
+        android:textColor="@color/game_hint_text_color"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grid_item_press_bg"/>
+</net.galliliu.jigsawpuzzle.ui.view.SquareLayout>

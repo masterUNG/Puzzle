@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/help_game">
+        <Preference
+            android:title="@string/help_introduction"
+            android:selectable="false"
+            android:summary="@string/help_intro_text" />
+        <Preference
+            android:title="@string/help_game_click"
+            android:selectable="false"
+            android:summary="@string/help_game_click_text" />
+        <Preference
+            android:title="@string/help_game_long_click"
+            android:selectable="false"
+            android:summary="@string/help_game_long_click_text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/help_menu">
+        <Preference
+            android:title="@string/help_new_game"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:selectable="false"
+            android:summary="@string/help_new_game_text" />
+        <Preference
+            android:title="@string/help_switch_type"
+            android:icon="@android:drawable/ic_menu_more"
+            android:selectable="false"
+            android:summary="@string/help_type_text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/help_buttons">
+        <Preference
+            android:title="@string/view_original"
+            android:selectable="false"
+            android:summary="@string/help_view_original_text" />
+        <Preference
+            android:title="@string/back"
+            android:selectable="false"
+            android:summary="@string/help_back_text" />
+        <Preference
+            android:title="@string/start"
+            android:selectable="false"
+            android:summary="@string/help_start_text" />
+    </PreferenceCategory>
+</PreferenceScreen>
